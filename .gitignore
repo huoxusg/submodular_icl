@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Generated / local-only artifacts
+npy_files/
+peft_models/
+ragged_datasets/
+
+# Local environment (never committed)
+.env
+scripts/local_env.sh
